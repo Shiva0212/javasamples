@@ -5,7 +5,7 @@ public class FirstThread {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("Hello from main thread pushed");
+		System.out.println("Hello from main thread pushed india");
 		Thread anotherThread = new AnotherThread();
 		anotherThread.setName("==Another Thread==");
 		anotherThread.start();
